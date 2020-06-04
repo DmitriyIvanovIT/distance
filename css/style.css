@@ -188,6 +188,7 @@ button:focus {
 }
 
 .nav-link {
+    width: 192px;
     padding: 4px 11px;
     display: flex;
     align-items: center;
@@ -207,6 +208,19 @@ button:focus {
 
 .nav-text {
     margin-left: 8px;
+}
+
+.nav-settings {
+    width: 24px;
+    height: 24px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.is-active {
+    display: flex;
 }
 
 .nav-title {
