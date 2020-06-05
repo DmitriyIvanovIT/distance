@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -21,32 +22,45 @@ button:focus {
 
 .header {
     background: #0050B3;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     z-index: 99;
 }
 
 .header-block {
     max-width: 1196px;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 8px 0;
 }
 
 .search {
     width: 336px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
 }
 
 .search-input {
     width: 100%;
     border: 1px solid #D9D9D9;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 18px;
     padding: 5px 30px 5px 12px;
     font-size: 14px;
@@ -69,13 +83,21 @@ button:focus {
 }
 
 .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .user-avatar {
@@ -91,13 +113,21 @@ button:focus {
 }
 
 .navigation-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .navigation-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     margin-left: 12px;
 }
@@ -119,13 +149,21 @@ button:focus {
 }
 
 .icons-panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .icon-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     margin-left: 17px;
 }
@@ -151,14 +189,21 @@ button:focus {
     margin: auto;
     margin-top: 18px;
     margin-bottom: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .menu-sidebar {
     max-width: 192px;
     position: static;
+    position: -webkit-sticky;
     position: sticky;
     top: 68px;
 }
@@ -180,9 +225,16 @@ button:focus {
 }
 
 .nav-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 12px;
     margin-bottom: 24px;
 }
@@ -190,8 +242,12 @@ button:focus {
 .nav-link {
     width: 192px;
     padding: 4px 11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 4px;
     text-decoration: none;
     font-size: 14px;
@@ -214,12 +270,18 @@ button:focus {
     width: 24px;
     height: 24px;
     display: none;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: auto;
 }
 
 .is-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -238,7 +300,8 @@ button:focus {
 
 .create-post {
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -253,14 +316,22 @@ button:focus {
     font-size: 14px;
     line-height: 22px;
     font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #595959;
 }
 
 .create-post-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     padding: 16px 16px 24px 16px;
 }
 
@@ -274,9 +345,14 @@ button:focus {
 
 .create-post-footer {
     padding: 0 16px 16px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .create-post-footer:before {
@@ -288,8 +364,12 @@ button:focus {
 }
 
 .tag {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #F5F5F5;
     border-radius: 48px;
     border: none;
@@ -303,7 +383,9 @@ button:focus {
 .tag:last-child {
     width: 48px;
     height: 40px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .button-text {
@@ -318,15 +400,22 @@ button:focus {
     padding: 16px;
     margin-top: 16px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
 .post-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin-bottom: 16px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .post-header .user-avatar {
@@ -335,13 +424,19 @@ button:focus {
 }
 
 .post-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .post-author {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -354,8 +449,12 @@ button:focus {
 .post-time {
     font-size: 14px;
     line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #8C8C8C;
     margin-right: 8px;
 }
@@ -375,9 +474,15 @@ button:focus {
     height: 24px;
     border: none;
     background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .post-content {
@@ -399,14 +504,19 @@ button:focus {
 
 .post-img {
     border: 1px solid #BFBFBF;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 4px;
     overflow: hidden;
 }
 
 .post-likes {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 9px;
 }
 
@@ -418,17 +528,27 @@ button:focus {
 }
 
 .post-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0 50px;
     border-top: 1px solid #E8E8E8;
     padding-top: 16px;
 }
 
 .post-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .post-button-text {
@@ -443,22 +563,30 @@ button:focus {
 .right-sidebar {
     width: 384px;
     position: static;
+    position: -webkit-sticky;
     position: sticky;
     top: 68px;
 }
 
 .stories {
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     padding: 16px;
     padding-left: 24px;
 }
 
 .story-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 16px;
 }
 
@@ -470,8 +598,12 @@ button:focus {
 
 .story-buttons,
 .story-button-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
 }
 
@@ -497,16 +629,25 @@ button:focus {
 
 .story-item-add,
 .story-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin-top: 16px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .story-item-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .story-title {
@@ -534,8 +675,12 @@ button:focus {
 }
 
 .story-dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 16px;
 }
 
@@ -552,11 +697,16 @@ button:focus {
 
 .birthday {
     margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 16px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
@@ -576,14 +726,21 @@ button:focus {
     margin-top: 16px;
     padding-top: 8px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
 .fanpage-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 1px solid #D9D9D9;
     padding: 0 16px;
     padding-bottom: 9px;
@@ -597,14 +754,22 @@ button:focus {
 
 .fanpage-content {
     padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     border-bottom: 1px solid #D9D9D9;
 }
 
 .fanpage-content .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 .fanpage-content .user-avatar {
@@ -621,13 +786,22 @@ button:focus {
 }
 
 .fanpage-content-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .fanpage-content-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     font-size: 14px;
     line-height: 22px;
@@ -641,9 +815,15 @@ button:focus {
 .notifications {
     width: 17px;
     height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: 4px;
     background: #F5F5F5;
     border: 1px solid #D9D9D9;
@@ -654,8 +834,12 @@ button:focus {
 }
 
 .fanpage-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 16px;
 }
 
@@ -664,7 +848,8 @@ button:focus {
     padding: 8px 16px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -677,9 +862,16 @@ button:focus {
 }
 
 .fanpage-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 16px;
     padding-top: 0;
 }
@@ -702,8 +894,12 @@ button:focus {
     width: 32px;
     height: 32px;
     display: none;
-    flex-direction: column;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 0;
 }
 
@@ -750,12 +946,20 @@ button:focus {
         left: 0;
         z-index: 2;
         background-color: #f1f1f1;
-        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+                transform: translateX(-100%);
+        -webkit-transition: -webkit-transform 0.2s;
+        transition: -webkit-transform 0.2s;
+        -o-transition: transform 0.2s;
         transition: transform 0.2s;
+        transition: transform 0.2s, -webkit-transform 0.2s;
     }
 
     .menu-sidebar-active {
-        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+                transform: translateX(0%);
     }
 
     .main-feed {   
@@ -763,6 +967,8 @@ button:focus {
     }
 
     .m-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 }
