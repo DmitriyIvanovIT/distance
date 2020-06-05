@@ -1,6 +1,6 @@
 * {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ button:focus {
     position: sticky;
     top: 0;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     z-index: 99;
 }
 
@@ -37,11 +37,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 8px 0;
 }
 
@@ -51,8 +51,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: relative;
 }
 
@@ -60,7 +60,7 @@ button:focus {
     width: 100%;
     border: 1px solid #D9D9D9;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 18px;
     padding: 5px 30px 5px 12px;
     font-size: 14px;
@@ -87,8 +87,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .user {
@@ -96,8 +96,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .user-avatar {
@@ -117,8 +117,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .navigation-link {
@@ -126,8 +126,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-decoration: none;
     margin-left: 12px;
 }
@@ -153,8 +153,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .icon-link {
@@ -162,8 +162,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-decoration: none;
     margin-left: 17px;
 }
@@ -193,11 +193,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .menu-sidebar {
@@ -230,11 +230,11 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 12px;
     margin-bottom: 24px;
 }
@@ -246,8 +246,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-radius: 4px;
     text-decoration: none;
     font-size: 14px;
@@ -271,11 +271,11 @@ button:focus {
     height: 24px;
     display: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-left: auto;
 }
 
@@ -301,7 +301,7 @@ button:focus {
 .create-post {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -320,8 +320,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     color: #595959;
 }
 
@@ -330,8 +330,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     padding: 16px 16px 24px 16px;
 }
 
@@ -349,10 +349,10 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .create-post-footer:before {
@@ -368,8 +368,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background: #F5F5F5;
     border-radius: 48px;
     border: none;
@@ -384,8 +384,8 @@ button:focus {
     width: 48px;
     height: 40px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .button-text {
@@ -401,7 +401,7 @@ button:focus {
     margin-top: 16px;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
@@ -410,12 +410,12 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     margin-bottom: 16px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .post-header .user-avatar {
@@ -428,15 +428,15 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .post-author {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -453,8 +453,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     color: #8C8C8C;
     margin-right: 8px;
 }
@@ -478,11 +478,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .post-content {
@@ -505,7 +505,7 @@ button:focus {
 .post-img {
     border: 1px solid #BFBFBF;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -515,8 +515,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-bottom: 9px;
 }
 
@@ -532,11 +532,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 0 50px;
     border-top: 1px solid #E8E8E8;
     padding-top: 16px;
@@ -547,8 +547,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .post-button-text {
@@ -571,7 +571,7 @@ button:focus {
 .stories {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     padding: 16px;
     padding-left: 24px;
@@ -582,11 +582,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-bottom: 16px;
 }
 
@@ -602,8 +602,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-decoration: none;
 }
 
@@ -633,8 +633,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     margin-top: 16px;
     cursor: pointer;
     text-decoration: none;
@@ -646,8 +646,8 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .story-title {
@@ -679,8 +679,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 16px;
 }
 
@@ -701,12 +701,12 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 16px;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
@@ -727,7 +727,7 @@ button:focus {
     padding-top: 8px;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
 
@@ -736,11 +736,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     border-bottom: 1px solid #D9D9D9;
     padding: 0 16px;
     padding-bottom: 9px;
@@ -758,8 +758,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     border-bottom: 1px solid #D9D9D9;
 }
 
@@ -768,8 +768,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 .fanpage-content .user-avatar {
@@ -791,8 +791,8 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .fanpage-content-button {
@@ -800,8 +800,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-decoration: none;
     font-size: 14px;
     line-height: 22px;
@@ -819,11 +819,11 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-left: 4px;
     background: #F5F5F5;
     border: 1px solid #D9D9D9;
@@ -838,8 +838,8 @@ button:focus {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 16px;
 }
 
@@ -849,7 +849,7 @@ button:focus {
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -867,11 +867,11 @@ button:focus {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 16px;
     padding-top: 0;
 }
@@ -896,21 +896,64 @@ button:focus {
     display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     padding: 0;
+    position: relative;
 }
 
-.m-menu .line{
+.menu-button {
+    position: absolute;
     width: 100%;
-    height: 1px;
-    background: #fff;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button::before{
+    content: ''; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -7px;
+    transition: transform 0.2s;
+}
+.menu-button::after{
+    content: ''; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 7px;
+    transition: transform 0.2s;
+}
+
+.menu-button-active{
+    height: 0;
+}
+
+.menu-button-active::before{
+    transform: rotate(45deg);
+    margin-top: 0;
+}
+.menu-button-active::after{
+    transform: rotate(-45deg);
+    margin-top: 0;
 }
 
 @media (max-width: 1250px) {
-    .stories, .birthday, .fanpage {
+
+    .stories,
+    .birthday,
+    .fanpage {
         display: none;
     }
 
@@ -929,9 +972,11 @@ button:focus {
 }
 
 @media (max-width: 960px) {
-   .header .user, .navigation-panel {
-       display: none;
-   }
+
+    .header .user,
+    .navigation-panel {
+        display: none;
+    }
 }
 
 @media (max-width: 840px) {
@@ -947,8 +992,8 @@ button:focus {
         z-index: 2;
         background-color: #f1f1f1;
         -webkit-transform: translateX(-100%);
-            -ms-transform: translateX(-100%);
-                transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
         -webkit-transition: -webkit-transform 0.2s;
         transition: -webkit-transform 0.2s;
         -o-transition: transform 0.2s;
@@ -958,12 +1003,12 @@ button:focus {
 
     .menu-sidebar-active {
         -webkit-transform: translateX(0%);
-            -ms-transform: translateX(0%);
-                transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
     }
 
-    .main-feed {   
-        margin-left: 5%; 
+    .main-feed {
+        margin-left: 5%;
     }
 
     .m-menu {
@@ -981,29 +1026,30 @@ button:focus {
 
 @media (max-width: 670px) {
     .main-feed {
-        margin-left: 2%; 
+        margin-left: 2%;
     }
-} 
+}
 
 @media (max-width: 630px) {
     .main-feed {
-        margin-left: 0; 
+        margin-left: 0;
     }
+
     .create-post-input {
         width: 90%;
     }
-} 
+}
 
 @media (max-width: 630px) {
     .main-feed {
-        margin-left: 0; 
+        margin-left: 0;
     }
 
     .post-img {
         max-width: 556px;
         height: auto;
     }
-} 
+}
 
 @media (max-width: 630px) {
     .main-feed {
